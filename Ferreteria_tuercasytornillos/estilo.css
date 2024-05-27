@@ -1,0 +1,85 @@
+body{
+
+    background-image: url(imagenes/fondo3.png);
+    overflow: hidden;
+    background-size: cover;
+    animation: forwards;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+form {
+    width: 500px;
+    height: 520px;
+    padding: 20px;
+    margin:250px ;
+    border-radius: 15px;
+    vertical-align: top;
+    align-content: center;
+    text-align: center;  
+    
+    box-shadow: 0 0 10px rgba(0,0,0,1.6);
+}
+
+P{
+    font-size: 40PX;
+    font-family: 'Gill Sans',;
+}
+
+h1{
+    text-align: left;
+    left: 100px;
+    color: #070707;
+    font-size: 20px;
+    padding-left: 100px;  
+}
+
+h2{
+    text-align: left;
+    left: 100px;
+    color: #050505;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+img{
+    width: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    margin: auto;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin: 2px 0;
+    border: 1px solid #cdd0d4;
+    border-radius: 10px;
+    box-sizing: border-box; 
+}
+
+form input[type="submit"] {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f5cf77;
+    color: #070707;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 20px; 
+}
+
+
+
+
