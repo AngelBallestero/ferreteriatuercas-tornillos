@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(183, 182, 182);
+    opacity: 10;  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    margin: auto;
+}
+
+.rectangu1 {
+    text-align: center;
+    width: 1850px;  
+    height: 275px; 
+}
+
+.rectangulo{
+    
+    background-color:  #3B5998;
+    padding: 20px;
+    width: 1850px;
+    height: 105px;
+    align-content: center;
+   
+}
+
+.rectangu a {
+    color: rgb(251, 245, 245);
+    text-decoration: none;
+    padding: 22.5px;   
+    
+}
+.rectangu a:hover{
+    transform: scale(1.2);
+    color: aquamarine;
+}

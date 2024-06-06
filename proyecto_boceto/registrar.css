@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(183, 182, 182);
+    opacity: 10;  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    margin: auto;
+}
+
+.rectangu1 {
+    text-align: center;
+    width: 1850px;  
+    height: 275px; 
+}
+
+.rectangulo{
+    
+    background-color:  #3B5998;
+    padding: 20px;
+    width: 1850px;
+    height: 105px;
+    align-content: center;
+    
+}
+
+.rec{
+    
+    background-color:  #3B5998;
+    padding: 20px;
+    width: 1850px;
+    height: 105px;
+    align-content: center;
+    margin-top: -95px;
+}
+.rectangu a {
+    color: rgb(251, 245, 245);
+    text-decoration: none;
+    padding: 22.5px;
+    
+}
+
+.rectangu a:hover {
+  
+    text-decoration: none;
+    padding: 22.5px;
+    transform: scale(1.1);
+    color: aqua;
+
+}
+form{
+    width: 1890px;
+    height: 1900px;
+    background-color: rgb(183, 182, 182);
+    align-content: center;
+    background-image:url(iconos/prueba.png) ;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+        
+}
+
+
+h1{
+    margin: 100px -1px;
+    margin-bottom: -60px;
+    font-size: 50px;
+}
+
+
+
+form input[type="text"]{
+    width: 700px;
+    margin: 100px 00px;
+    height: 150px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 25px;
+    box-sizing: border-box; 
+    font-size: 50px;  
+
+}
+
+
+form input[Type="tel"]{
+    width: 700px;
+    margin: 100px 1px;
+    height: 150px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 25px;
+    box-sizing: border-box;  
+    font-size: 50px;
+    margin-top: -1000px;
+}
+
+form input[type="email"]{
+    width: 700px;
+    margin: 50px 10px;
+    height: 150px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 25px;
+    box-sizing: border-box;  
+    font-size: 50px;
+    margin-top: -1000px;
+}
+
+.form input[type="text"]{
+    width: 700px;
+    margin: 5px;
+    margin-top: -50px;
+    height: 150px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 25px;
+    box-sizing: border-box; 
+    font-size: 50px;   
+        
+}
+
+form input[type="checkbox"]{
+    width: 50px;
+    height: 200px; 
+    margin-top: 1%;
+    float: lefT;
+    margin-left: -1380px;
+}
+
+form input[type="submit"]{
+    background-color: #3B5998;
+    border-radius: 15px;
+    width: 400px;
+    height: 100px;
+    color:white;
+    margin: 150px 400px;
+    font-size: 65px;
+    font-family: Arial white;
+   margin-top: -60px;
+    float: left;
+    margin-left: 750px;
+}

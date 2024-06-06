@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(183, 182, 182);
+    opacity: 10;  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    margin: auto;
+}
+
+.rectangu1 {
+    text-align: center;
+    width: 1850px;  
+    height: 275px; 
+}
+
+.rectangulo{
+    
+    background-color:  #3B5998;
+    padding: 20px;
+    width: 1850px;
+    height: 105px;
+    align-content: center;
+}
+
+.rectangu a {
+    color: rgb(251, 245, 245);
+    text-decoration: none;
+    padding: 22.5px;   
+    
+}
+.rectangu a:hover{
+    transform: scale(1.2);
+    color: aquamarine;
+}
+
+form{
+    width: 1820px;
+    height: 1000px;
+    background-color: rgb(183, 182, 182);
+    align-content: center
+}
+
+form input[type="text"]{
+    width: 900px;
+    margin: 100px 00px;
+    height: 150px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 25px;
+    box-sizing: border-box; 
+    font-size: 50px;   
+}
+
+
+form input[Type="tel"]{
+    width: 900px;
+    margin: 100px 1px;
+    height: 150px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 25px;
+    box-sizing: border-box;  
+    font-size: 50px;
+    margin-top: -1000px;
+
+}
+
+form input[type="email"]{
+    width: 900px;
+    margin: 50px 10px;
+    height: 150px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 25px;
+    box-sizing: border-box;  
+    font-size: 50px;
+    margin-top: -1000px;
+}
+
+.form input[type="text"]{
+    width: 900px;
+    margin: 5px;
+    margin-top: -50px;
+    height: 350px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 25px;
+    box-sizing: border-box; 
+    font-size: 50px;   
+        
+}
+
+
+form input[type="checkbox"]{
+    width: 50px;
+    height: 200px; 
+    margin-top: 10px;
+    float: lefT;
+    margin-left: -1110px;
+     
+
+}
+
+
+form input[type="submit"]{
+    background-color: #3B5998;
+    border-radius: 15px;
+    width: 1000px;
+    height: 100px;
+    color: white;
+    margin: 150px 400px;
+    font-size: 65px;
+    font-family: Arial white;
+}
+
+
+
+.imga{
+    margin-top: -1350px;
+    float: left;
+    margin-left: 1100px;
+}
+
+

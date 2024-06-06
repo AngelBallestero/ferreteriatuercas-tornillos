@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(183, 182, 182);
+    opacity: 10;
+   
+   
+}
+
+.rectangu1 {
+  
+    padding: 20px;
+    text-align: center;
+    width: 1850px;  
+     
+}
+
+.rectangulo{
+    background-color:  #3B5998;
+    padding: 20px;
+    width: 1850px;
+    height: 105px;
+    align-content: center;  
+    margin-top: -100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    margin: auto;
+}
+
+form{
+    background-color: #BAB1B1;
+    width: 640px;
+    height: 724px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20%; 
+}
+
+img{
+    margin:50px;
+}
+
+a{
+    margin: 50px 150px;
+    text-decoration: none;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    width: 492px;
+    padding: 10px;
+    margin: 15px 0;
+    height: 64px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 10px;
+    box-sizing: border-box; 
+   
+}
+
+form input[type="submit"]{
+    background-color: #3B5998;
+    border-radius: 15px;
+    width: 492px;
+    height: 64px;
+    margin: 30px;
+}

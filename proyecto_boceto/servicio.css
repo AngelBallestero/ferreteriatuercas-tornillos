@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(183, 182, 182);
+    opacity: 10;  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    margin: auto;
+}
+
+.rectangu1 {
+    text-align: center;
+    width: 1850px;  
+    height: 275px; 
+}
+
+.rectangulo{
+    
+    background-color:  #3B5998;
+    padding: 20px;
+    width: 1850px;
+    height: 105px;
+    align-content: center;
+}
+
+.rectangu a {
+    color: rgb(251, 245, 245);
+    text-decoration: none;
+    padding: 22.5px;
+    
+}
+
+.rectangu a:hover {
+  
+    text-decoration: none;
+    padding: 22.5px;
+    transform: scale(1.1);
+    color: aqua;
+
+}
+
+
+
+
+.rec{
+    background-color:  #3B5998;
+    padding: 20px;
+    width: 536px;
+    height: 40px;
+    align-content: center;
+    float: left;
+    margin-left: 15%;   
+    color: white;
+    font-size: 50px; 
+    text-align: center;
+    align-items: center;
+    border-radius: 10px; 
+}
+
+
+
+
+.conte{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    float: right; 
+    
+}
+
+
+.contes{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    float: right;
+    margin-right: 1465px; 
+    margin-top: -100px;  
+}
