@@ -6,33 +6,46 @@ body{
     animation: forwards;
     background-attachment: fixed;
     background-position: center center;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-size:18px;
+    float: left;
+    margin-left: 200px;   
+}
+
+a:hover{
+   
+    transform:scale(1.1) ;
+    color: #f70606;
+}
+select{
+    width: 200px;
+    height: 100px
 }
 
 form {
     width: 500px;
-    height: 520px;
+    height: 550px;
     padding: 20px;
-    margin:250px ;
+    margin:200px ;
     border-radius: 15px;
     vertical-align: top;
     align-content: center;
     text-align: center;  
-    
+    overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,1.6);
-}
-
-P{
-    font-size: 40PX;
-    font-family: 'Gill Sans',;
+    
 }
 
 h1{
     text-align: left;
     left: 100px;
     color: #070707;
-    font-size: 20px;
+    font-size: 40px;
     padding-left: 100px;  
 }
 
@@ -73,8 +86,8 @@ form input[type="submit"] {
     margin-top: 30px;
     border: none;
     border-radius: 10px;
-    background-color: #f5cf77;
-    color: #070707;
+    background-color: rgb(231, 133, 5);
+    color: #fffdfd;
     cursor: pointer;
     font-family: Arial;
     font-size: 20px; 

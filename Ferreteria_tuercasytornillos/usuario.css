@@ -1,0 +1,109 @@
+body{
+    background-image: url(imagenes/fondo3.png) ;
+    overflow: hidden;
+    background-size: cover;
+    animation: forwards;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    height: 200px;
+}
+
+h1{
+
+    margin-bottom: 30px;
+    text-align: left;
+    color: black;
+    padding-left: 100px;  
+    font-size: 20px;
+    margin-left: -40px;
+
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+select {
+    height: 60px;
+    border: 5px;
+    margin-top: 300px 500px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: -100px;
+}
+
+select:hover {
+   transform: scale(1.1);
+   color: rgb(247, 152, 11);
+}
+
+form{
+    text-align: center;
+    align-content: center;
+    margin: 100px 1000px;  
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,1.6);
+    width: 400px;
+    height: 700px;
+}
+
+form input[type="text"]{
+    width: 300px;
+    padding: 10px;
+    margin: 2px 0;
+    border: 1px solid #cdd0d4;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    height: 60px;
+    margin-top: -100px;
+}
+
+form input[type="tel"]{
+    width: 300px;
+    padding: 10px;
+    margin: 2px 0;
+    border: 1px solid #cdd0d4;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    margin-top: -10px;
+    height: 60px;
+}
+
+form input[type="submit"]{
+    width: 200px;
+    height: 50px;
+    margin: 20px 100px;
+    background-color: rgb(247, 152, 11);
+    border: 5px;
+    border-radius: 20px; 
+    font-size: 25px;
+    font-family: Arial white;
+    color: white;
+
+    
+}
+
+form input:hover[type="submit"]{
+    transform: scale(1.1);
+    color: white;
+}
+
+form input:hover[type="text"]{
+    transform: scale(1.1);
+    color: rgb(247, 152, 11);
+
+}
+
+form input:hover[type="tel"]{
+    transform: scale(1.1);
+    color: rgb(247, 152, 11);
+
+}
