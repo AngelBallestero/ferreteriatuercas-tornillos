@@ -15,7 +15,7 @@
         <img src="imagenes/tornillos.png" style="width:60px; float:left; margin-left: 5px; margin-top:-1px;">
         <h1 style="margin-top:60px;">Tipo De Documento</h1>
         <select name="Id_documento" id="Id_documento" style="width: 300px">
-            <?php include 'conexion.php'; ?>
+            <?php include 'conexion'; ?>
         </select>
         <br>
         <h1>N°Documento</h1>

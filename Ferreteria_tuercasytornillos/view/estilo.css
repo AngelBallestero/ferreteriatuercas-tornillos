@@ -1,3 +1,5 @@
+
+
 body{
 
     background-image: url(imagenes/fondo3.png);
@@ -45,7 +47,7 @@ h1{
     text-align: left;
     left: 100px;
     color: #070707;
-    font-size: 40px;
+    font-size: 20px;
     padding-left: 100px;  
 }
 

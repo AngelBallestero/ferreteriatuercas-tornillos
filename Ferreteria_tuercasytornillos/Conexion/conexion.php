@@ -1,6 +1,6 @@
 <?php
 
-class ConexionBD {
+class Conexion {
     private $conexion;
 
     public function __construct() {
@@ -30,10 +30,10 @@ class ConexionBD {
 }
 
 // Crear instancia de la clase y conectar
-$conexion = new ConexionBD();
+$conexion = new Conexion();
 
 // Consultar tipos de documento
-$conexionBD->consultarTiposDocumento();
+$conexion->consultarTiposDocumento();
 
 ?>
 
