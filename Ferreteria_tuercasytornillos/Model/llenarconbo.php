@@ -1,18 +1,6 @@
-<?php
-
-class Conexion {
-    private $conexion;
-
-    public function __construct() {
-        try {
-            $this->conexion = new PDO('mysql:host=localhost;dbname=gestionferreteria', 'root', '');
-            $this->conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        } catch (PDOException $e) {
-            echo 'Error de conexión: ' . $e->getMessage();
-        }
-    }
-   
-    function consultarTiposDocumento(){
+<?php>
+$conexion = new Conexion;
+function consultarTiposDocumento(){
         $resultado = $this->conexion->query("SELECT ID, nombre FROM ttiposdoc");
 
         if ($resultado->rowCount() > 0) {
@@ -29,17 +17,5 @@ class Conexion {
     }
 
 }
-
-
-}
-
-$conexion = new Conexion();
-
 $conexion->consultarTiposDocumento();
-
 ?>
-
-
-
-
-
